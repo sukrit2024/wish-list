@@ -4,6 +4,8 @@
         <element attributes="edge_encryption_enabled=true" display="true" label="Item" mandatory="true" max_length="200" name="item" type="string"/>
         <element label="Quantity" max_length="40" name="quantity" type="integer"/>
         <element attributes="encode_utf8=false" label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element label="Testing larger field Dev1" max_length="500" name="testing_larger_field_dev1" type="string"/>
+        <element label="Testing larger field dev2" max_length="40" name="testing_larger_field_dev2" type="string"/>
         <element label="URL" max_length="1024" name="url" type="url"/>
         <index name="index">
             <element name="requester"/>
